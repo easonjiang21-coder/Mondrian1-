@@ -1,0 +1,22 @@
+.container { 
+    background-color: black;
+        display: grid;
+        grid-template-columns: 25% 3fr 2fr 1fr;
+        grid-gap:10px; 
+        height: 650px; 
+}
+
+
+.item { 
+    background-color: white; 
+    color: yellow; 
+    font-size: 30px; 
+    padding: 10px; 
+    text-align: center; 
+    font-family: ' Montserrat', sans-serif; 
+}
+
+.colors1 { 
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+}
