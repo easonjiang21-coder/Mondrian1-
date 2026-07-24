@@ -1,9 +1,18 @@
+body {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #d8b28c;
+}
+
 .container {
     background-color: green;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 10px;
-    height: 650px;
+    min-height: calc(100vh - 20px);
+    width: 100%;
 }
 
 .item {
@@ -27,4 +36,10 @@
 
 .colors6 {
     grid-column: 3 / 5;
+    background-color: yellow;
+}
+
+.item:nth-child(10) {
+    background-color: black;
+    color: white;
 }
