@@ -39,7 +39,15 @@ body {
     background-color: yellow;
 }
 
+.item:nth-child(8) {
+    background-color: blue;
+}
+
 .item:nth-child(10) {
     background-color: black;
     color: white;
+}
+
+.item:nth-child(12) {
+    grid-column: 3 / 5;
 }
