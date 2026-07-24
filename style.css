@@ -39,6 +39,10 @@ body {
     background-color: yellow;
 }
 
+.item:nth-child(5) {
+    background-color: purple;
+}
+
 .item:nth-child(7) {
     background-color: teal;
 }
